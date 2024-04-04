@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.StickyScroll::-webkit-scrollbar {
+  width: 0;
+}
+
+.StickyScroll {
+  scrollbar-width: none;
+}
